@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--画像１つ１つのひな形-->
+<com.websarva.wings.android.pictures3.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/cardview"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/top_card_view_margin"
+    android:layout_marginBottom="@dimen/bottom_card_view_margin"
+    android:layout_marginLeft="@dimen/left_card_view_margin"
+    android:layout_marginRight="@dimen/right_card_view_margin"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+</com.websarva.wings.android.pictures3.SquareLayout>
